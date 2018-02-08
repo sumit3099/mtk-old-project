@@ -1,0 +1,7 @@
+@import './variable';
+@import './mixins';
+body {
+    background-color: $bg-color;
+    display: flex;
+    height: 100vh;
+}

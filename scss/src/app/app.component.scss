@@ -1,0 +1,27 @@
+@import '~scss/variable';
+@import '~scss/mixins';
+.contaier {
+    width: 100%;
+    min-height: 300px;
+    background-color: $primary-color;
+    color: $secondary-color;
+    padding: 10px;
+    margin-left: 40%;
+    @include border-radius(10px);
+    h4 {
+        color: $txt-color;
+        font-size: 17px;
+    }
+    ul {
+        li {
+            color: $secondary-color;
+        }
+    }
+    fieldset {
+        margin-left: 10%;
+        button {
+            background-color: $secondary-color;
+            color: $btn-color;
+        }
+    }
+}
